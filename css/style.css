@@ -49,3 +49,6 @@ a{
 .position{
     display: flex;
 }
+#img-banner{
+    width: 100%;
+}
