@@ -97,7 +97,6 @@ a{
 .border{
     border-radius: 5px;
     background-color: white;
-    width: 170px;
 }
 
 .centro{
@@ -105,8 +104,8 @@ a{
 }
 
 .movie-list{
-    width: 90%;
     height: 250px;
+    padding: 0 50px;
 }
 
 .space{
@@ -117,4 +116,6 @@ a{
     background: #C0C0C0;
 }
 
-
+li{
+    margin: 0 10px;
+}
