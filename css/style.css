@@ -77,7 +77,7 @@ a{
 .grey-background{
     background: grey;
     width:90%;
-    height: 200px;
+    height: 150px;
     border-width: medium;
     border-style: solid;
     border-color: black;
@@ -97,20 +97,16 @@ a{
 .border{
     border-radius: 5px;
     background-color: white;
-    width: 280px;
+    width: 170px;
 }
 
 .centro{
     color: black;
 }
 
-.paragrafo{
-    margin-top: 10px;
-}
-
 .movie-list{
     width: 90%;
-    height: 300px;
+    height: 250px;
 }
 
 .space{
