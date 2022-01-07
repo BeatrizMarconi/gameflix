@@ -1,19 +1,28 @@
-body, html{ height: 100%; margin: 0; }
+body, html, .border , .thickness , .position2{ height: 100%; margin: 0; }
 
 .container-main{
-    background: black;
     height: 80px;
     align-items:flex-end;
-    justify-content: center;
-    
 }
+
+.alignment{
+    justify-content: center;
+}
+
+.alignment-vert{
+    align-items: center;
+}
+
+.aligment-column{
+    flex-direction: column;
+}
+
 .thickness{
     width: 100%;
 }
+
 .line{
     width: 90%;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .color-white{
@@ -28,20 +37,20 @@ ul{
 .col-third{
     width: 50%;
     justify-content: flex-end;
-    
 }
 
 .col-second{
     width: 60%;
     justify-content: flex-start;
 }
+
 .col-first{
     width: 10%;
 }
 
 a:hover{
     text-decoration:solid;
-    color: pink;
+    color: #C0C0C0;
 }
 
 a{
@@ -51,75 +60,65 @@ a{
 .position{
     display: flex;
 }
+
 #banner{
     height: 300px;
 }
-.img-banner{
-    height: 100%;
-}
-.main{
+
+.background{
     background: black;
+}
+
+.main{
     height:350px;
-    align-items: center;
-    flex-direction: column;
     margin: 0;
 }
+
 .grey-background{
     background: grey;
     width:90%;
     height: 200px;
-    justify-content: center;
-    align-items: center;
     border-width: medium;
     border-style: solid;
     border-color: black;
-  
 }
 
 .position2{
     justify-content: space-between;
     padding: 0;
-    height: 100%;
-    margin-top: 0;
-    
 }
 
-.tituloh2{
+.titleh2 , .paragrafo{
     width: 90%;
     margin: 0;
     height: 50px;
-   
 }
 
 .border{
     border-radius: 5px;
     background-color: white;
     width: 280px;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .centro{
     color: black;
-
 }
+
 .paragrafo{
-    width: 90%;
-    height: 50px;
     margin-top: 10px;
 }
 
 .movie-list{
     width: 90%;
     height: 300px;
-    
 }
 
-.teste{
+.space{
     margin-right: 10px;
 }
 
+.color-link:hover{
+    background: #C0C0C0;
+}
 
 
