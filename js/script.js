@@ -1,3 +1,3 @@
-function myFunction() {
-    alert("Vc clicou em um card!");
-  }
+function cards(nome) {
+  alert(`Vc clicou no Filme: ${nome}`);
+}
