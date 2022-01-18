@@ -92,7 +92,7 @@ let boxDeCards = document.querySelector('#boxDeCards');
 games.forEach(game =>{
   userHtml+= `
         <li>
-          <a id = 'bea' onclick="cards('${game.nome}')" href="#">
+          <a onclick="cards('${game.nome}')" href="#">
             <div class="card aligment-column alignment-vert alignment position color-link">
               <div class="alignment-vert grey-background alignment center position"><img src="${game.image}"></div>
               <div class="paragraph center"><P> ${game.nome} </P></div>
