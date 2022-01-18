@@ -1,4 +1,4 @@
-body, html, .border , .thickness , .position2{ height: 100%; margin: 0; }
+body, html, .card , .thickness , .position2{ height: 100%; margin: 0; }
 
 .container-main{
     height: 80px;
@@ -17,7 +17,7 @@ body, html, .border , .thickness , .position2{ height: 100%; margin: 0; }
     flex-direction: column;
 }
 
-.thickness{
+.thickness, div img{
     width: 100%;
 }
 
@@ -70,13 +70,13 @@ a{
 }
 
 .main{
-    height:350px;
+    height:600px;
     margin: 0;
 }
 
 .grey-background{
     background: grey;
-    width:90%;
+    width:95%;
     height: 150px;
     border-width: medium;
     border-style: solid;
@@ -94,13 +94,14 @@ a{
     height: 50px;
 }
 
-.border{
+.card{
     border-radius: 5px;
-    background-color: white;
+    background-color: #1C1C1C;
+    margin-top: 5px;
 }
 
-.centro{
-    color: black;
+.center{
+    color: #DCDCDC;
 }
 
 .movie-list{
@@ -120,6 +121,19 @@ li{
     margin: 0 10px;
 }
 
-.paragrafo{
-    font-size: 15px;
+.paragraph{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.list{
+   display: grid;
+   grid-template-columns: repeat(5 ,2fr);
+   padding: 0;
+   margin-left: 15px;
+   grid-gap: 25px;
+}
+
+div img{
+    height: 100%;
 }
