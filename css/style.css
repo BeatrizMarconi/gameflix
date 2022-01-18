@@ -75,12 +75,17 @@ a{
 }
 
 .grey-background{
-    background: grey;
     width:95%;
     height: 150px;
     border-width: medium;
     border-style: solid;
-    border-color: black;
+    border-color: #FF6EC7;
+    margin-top: 5px;
+
+}
+
+.grey-background, .card{
+    border-radius: 5px;
 }
 
 .position2{
@@ -95,9 +100,8 @@ a{
 }
 
 .card{
-    border-radius: 5px;
     background-color: #1C1C1C;
-    margin-top: 5px;
+    justify-content: start;
 }
 
 .center{
@@ -107,6 +111,7 @@ a{
 .movie-list{
     height: 250px;
     padding: 0 50px;
+  
 }
 
 .space{
@@ -114,17 +119,21 @@ a{
 }
 
 .color-link:hover{
-    background: #C0C0C0;
+    background: #DB7093;
     color: black;
 }
 
 li{
     margin: 0 10px;
+    ;
+}
+
+.paragraph, .color-white{
+    font-family: FreeMono, monospace;
 }
 
 .paragraph{
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .list{
@@ -133,8 +142,22 @@ li{
    padding: 0;
    margin-left: 15px;
    grid-gap: 25px;
+  
+
 }
 
 div img{
     height: 100%;
 }
+
+.teste2{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    
+}
+
+
+
