@@ -106,8 +106,8 @@ retros.forEach(gamer =>{
             <div class="card aligment-column alignment-vert alignment position color-link">
               <div class="alignment-vert grey-background alignment center position"><img src="${gamer.image}"></div>
               <div class="paragraph center">
-                <P class= "teste"> ${gamer.nome} </P>
-                <P class= "teste2"> ${gamer.descrição} </P>
+                <P> ${gamer.nome} </P>
+                <P class= "column-cards"> ${gamer.descrição} </P>
               </div>
             </div>
           </a>

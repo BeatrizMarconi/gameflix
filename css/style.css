@@ -26,8 +26,7 @@ body, html, .card , .thickness , .position2{ height: 100%; margin: 0; }
 }
 
 .color-white{
-    color: white; 
-    margin-right: 10px;  
+    color: white;   
 }
 
 ul{
@@ -96,8 +95,8 @@ a{
     padding: 0;
 }
 
-.titleh2 , .paragrafo{
-    width: 90%;
+.titleh2 {
+    width: 95%;
     margin: 0;
     height: 50px;
 }
@@ -112,13 +111,13 @@ a{
 }
 
 .movie-list{
+    width: 95%;
     height: 250px;
     padding: 0 50px;
-  
 }
 
 .space{
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .color-link:hover{
@@ -128,7 +127,6 @@ a{
 
 li{
     margin: 0 10px;
-    ;
 }
 
 .paragraph, .color-white{
@@ -136,15 +134,15 @@ li{
 }
 
 .paragraph{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .list{
    display: grid;
    grid-template-columns: repeat(5 ,2fr);
-   padding: 0;
-   margin-left: 15px;
+   padding: 0; 
    grid-gap: 25px;
+   justify-content: start;
   
 
 }
@@ -153,7 +151,7 @@ div img{
     height: 100%;
 }
 
-.teste2{
+.column-cards{
     width: 200px;
     white-space: nowrap;
     overflow: hidden;
@@ -162,5 +160,9 @@ div img{
     
 }
 
-
+.card .paragraph {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
 
