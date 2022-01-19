@@ -5,7 +5,7 @@ body, html, .card , .thickness , .position2{ height: 100%; margin: 0; }
     align-items:flex-end;
 }
 
-.alignment{
+.alignment, .position-start {
     justify-content: center;
 }
 
@@ -38,7 +38,7 @@ ul{
     justify-content: flex-end;
 }
 
-.col-second,.position-start{
+.col-second, .card, .list{
     justify-content: flex-start;
 }
 
@@ -99,11 +99,11 @@ a{
     width: 95%;
     margin: 0;
     height: 50px;
+    text-decoration: underline;
 }
 
 .card{
     background-color: #1C1C1C;
-    justify-content: start;
 }
 
 .center{
@@ -142,9 +142,7 @@ li{
    grid-template-columns: repeat(5 ,2fr);
    padding: 0; 
    grid-gap: 25px;
-   justify-content: start;
-  
-
+   margin-top: 10px;
 }
 
 div img{
