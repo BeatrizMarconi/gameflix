@@ -14,7 +14,7 @@ let games = [
   },
   {
     id:2,
-    image:"https://static.wikia.nocookie.net/crashbandicoot/images/0/0d/Box.jpg/revision/latest?cb=20181221163322&path-prefix=pt-br",
+    image:"https://upload.wikimedia.org/wikipedia/pt/d/dd/Crash_Bandicoot_1_capa.png",
     nome:"Crash Bandicoot",
     descrição:"bandicoot geneticamente alterado Crash, luta para impedir o planos do cientista do mal Neo Córtex e seus lacaios",
     genero:"Aventura,Plataforma",

@@ -39,9 +39,12 @@ ul{
     justify-content: flex-end;
 }
 
+.col-second,.position-start{
+    justify-content: flex-start;
+}
+
 .col-second{
     width: 60%;
-    justify-content: flex-start;
 }
 
 .col-first{
